@@ -173,10 +173,173 @@ Copy the content of `8-index.html` into `9-index.html`
 
  - in the `section` tag with the the text `Hero section`, remove the text and create a level 2 heading with text `We help you build your brand!`
  - in the `section` tag with the the text `Services section`, remove the text and create a level 2 heading with text `Services`
- - in the `section` tag with the the text Works section, remove the text and create a level 2 heading with text Works
-    in the section tag with the the text About section, remove the text and create a level 2 heading with text About Us
-    in the section tag with the the text Latest news section, remove the text and create a level 2 heading with text Latest news
-    in the section tag with the the text Testimonials section, remove the text and create a level 2 heading with text Testimonials
-    in the section tag with the the text Contact section, remove the text and create a level 2 heading with text Contact
+ - in the `section` tag with the the text `Works section`, remove the text and create a level 2 heading with text `Works`
+ - in the `section` tag with the the text `About section`, remove the text and create a level 2 heading with text `About Us`
+ - in the section tag with the the text `Latest news section`, remove the text and create a level 2 heading with text `Latest news`
+ - in the section tag with the the text `Testimonials section`, remove the text and create a level 2 heading with text `Testimonials`
+ - in the section tag with the the text `Contact section`, remove the text and create a level 2 heading with text `Contact`
 
-W3C won’t pass - you can ignore it
+__W3C won’t pass - you can ignore it__
+
+File:[9-index.html](9-index.html)
+
+### 10. Level 3 headings
+
+Copy the content of `9-index.html` into `10-index.html`
+
+__Services headings:__
+
+ - Inside the section containing the `h2` heading `Services`, add these elements right after the `h2`:
+    - create a level 3 heading with text `Design & Concept`
+    - create a level 3 heading with text `Digital Strategy`
+    - create a level 3 heading with text `Content Strategy`
+    - create a level 3 heading with text `UX Design`
+    - create a level 3 heading with text `Web Development`
+    - create a level 3 heading with text `Social Media`
+
+__Works headings:__
+
+ - Inside the section containing the `h2` heading `Works`:
+    - in the first `article`, replace the text with a level 3 heading with text `Interior Design`
+    - in the second `article`, replace the text with a level 3 heading with text `Web Development`
+    - in the third `article`, replace the text with a level 3 heading with text `Personal Brand`
+
+__About Us headings:__
+
+ - Inside the section containing the `h2` heading `About Us`, after the `h2` heading, create these elements in this order:
+    - a level 3 heading with text `Who are we`
+    - a level 3 heading with text `Our culture`
+    - a level 3 heading with text `How we work`
+
+__Latest news headings:__
+
+ - Inside the section containing the `h2` heading `Latest news`:
+   - in the first `article` replace the text with a level 3 heading with text `Hoc loco tenere se Triarius non potuit.`
+   - in the second `article` replace the text with a level 3 heading with text `Ut alios omittam, hunc appello, quem ille unum secutus est.`
+   - in the third `article` replace the text with a level 3 heading with text `Bestiarum vero nullum iudicium puto.`
+
+__W3C does not need to pass here__
+
+FIle:[10-index.html](10-index.html)
+
+### 11. styleguide
+
+Copy the content of `3-index.html` into `11-styleguide.html`
+
+  - change the title to `Styleguide - Techium`
+  - remove the text from `header`, `main`, and `footer`
+  - create a new `<section>` inside your `main` tag
+   - create a `header` in this `section`
+    - in the `header` add a level 2 heading with text `Headings`
+   - after the `header`:
+    - add a level 1 heading with text `Heading level 1`
+    - add a level 2 heading with text `Heading level 2`
+    - add a level 3 heading with text `Heading level 3`
+    - add a level 4 heading with text `Heading level 4`
+    - add a level 5 heading with text `Heading level 5`
+    - add a level 6 heading with text `Heading level 6`
+
+File:[11-styleguide.html](11-styleguide.html)
+
+### 12. Paragraphs
+Copy the content of `10-index.html` into `12-index.html`
+
+__About Us paragraphs:__
+
+ - in the `About Us` section
+   - after the first `h3` (who are we) create a paragraph with the text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!`
+   - after the second `h3` create a paragraph with the text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!`
+   - after the third `h3` create a paragraph with the text: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!`
+
+__Latest news paragraphs:__
+
+ - in the `Latest news` section
+   - in the first `article`
+    - create a paragraph with text `Career` before the heading
+    - create a paragraph with text `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?` after the heading
+   - in the second `article`
+    - create a paragraph with text `Digital Life` before the heading
+    - create a paragraph with text `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum mihi Piso: Quid ergo? Tum ille: Ain tandem? Non autem hoc: igitur ne illud quidem. Sed quod proximum fuit non vidit. Nos commodius agimus. An nisi populari fama?` after the heading
+   - in the third `article`
+    - create a paragraph with text `Social` before the heading
+    - create a paragraph with text `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non igitur bene. Quid enim est a Chrysippo praetermissum in Stoicis? Pugnant Stoici cum Peripateticis. Prioris generis est docilitas, memoria; Apparet statim, quae sint officia, quae actiones.` after the heading
+
+__Contact paragraph:__
+
+    in the Contact section after the heading
+        create a paragraph with the text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?
+
+__Additional paragraphs:__
+
+ - below the level 2 `Services` heading add a paragraph with text `We work with you`
+ - below the level 2 `Works` heading add a paragraph with text `Take a look in our portfolio`
+ - below the level 2 `About Us` heading add a paragraph with text `Everything about us`
+ - below the level 2 `Testimonials` heading add a paragraph with text `We are more than a digital company`
+ - below the level 2 `Contact` heading add a paragraph with text `We like to know new people`
+
+__Does not need to pass W3C__
+
+File:[12-index.html](12-index.html)
+
+### 13. styleguide paragraphs
+Copy the contents of `11-styleguide.html` into `13-styleguide.html`
+
+ - After the existing section containing `Headings`, create a new `section` in `main`
+  -  in this section create a `header`
+    - Inside the header, create a level 2 heading with text `Paragraph`
+  - after the `header` add a level 2 heading with text `Heading with a subtitle`
+  - after the level 2 heading, add a paragraph with text `This is my subtitle`
+  - after the last paragraph, add another paragraph with text: `Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.`
+
+File:[13-styleguide.html](13-styleguide.html)
+
+### 14. Span
+
+Copy the contents of `12-index.html` into `14-index.html`
+
+In the very first `<header>`,
+
+  - before the `nav`, create a `span` with the text `Techium`
+
+__Does not need to pass W3C__
+
+File: [14-index.html](14-index.html)
+
+### 15. Div
+
+Copy the contents of `14-index.html` into `15-index.html`
+
+  - Wrap the contents of the `header` element with a `div`
+  - Wrap the contents of all `section` elements with a `div`
+  - Finally, wrap the contents of the `<footer>` tag with a `div`
+
+__W3C does not need to pass__
+
+File: [15-index.html](15-index.html)
+
+### 16. Structure your sections
+
+Copy the contents of `15-index.html` into `16-index.html`
+
+  - in the `div` in the Services `section`
+    - create a `header` tag that wraps the `h2` and the `p`
+    - create a `div` sibling to the `header` that wraps the rest of the content
+  - in the `div` in the Works `section`
+    - create a header tag that wraps the h2 and the p
+    - create a div sibling to the header that wraps the rest of the content
+  - in the div in the About Us `section`
+    - create a `header` tag that wraps the `h2` and the `p`
+    - create a `div` sibling to the `header` that wraps the rest of the content
+  - in the div in the Latest news section
+    - create a `header` tag that wraps the `h2`
+    - create a `div` sibling to the `header` that wraps the rest of the content
+  - in the `div` in the Testimonials `section`
+    - create a header tag that wraps the `h2` and the `p`
+    - create a `div` sibling to the `header` that wraps the rest of the content
+  - in the `div` in the Contact `section`
+    - create a `header` tag that wraps the `h2` and the first `p`
+    - create a `div` sibling to the `header` that wraps the rest of the content
+
+__W3C does not need to pass__
+
+File: [16-index.html](16-index.html)
